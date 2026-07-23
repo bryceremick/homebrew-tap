@@ -1,28 +1,28 @@
 class RmComments < Formula
   desc "Strip all comments from source files, safely, via tree-sitter"
   homepage "https://github.com/bryceremick/rm-comments"
-  version "0.3.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bryceremick/rm-comments/releases/download/v0.3.0/rm-comments-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "af771639d7c3c686263516436e8c4760b4fdabbc9989b0e43fb35e6651e47391"
+      url "https://github.com/bryceremick/rm-comments/releases/download/v0.4.1/rm-comments-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "bbd4cd1a603349747e0ff9f8bd691de8d01b1a365c92611f9d841b1635fbd680"
     end
     on_intel do
-      url "https://github.com/bryceremick/rm-comments/releases/download/v0.3.0/rm-comments-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e2ee3bce13205ca1907d4f048aa854e0df7a3b36c5fd8ddcd95088488d5fc6c4"
+      url "https://github.com/bryceremick/rm-comments/releases/download/v0.4.1/rm-comments-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "96eeb0fda9131af6972fce871c9a3b5f286caa2180f019e45fc115626acfe997"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bryceremick/rm-comments/releases/download/v0.3.0/rm-comments-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "94ade821c0ac6ca70f92c9141f85ab5d041d17ee2e02b3080da5e21b76d8ebab"
+      url "https://github.com/bryceremick/rm-comments/releases/download/v0.4.1/rm-comments-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4ce77e0ba44628024b587c49f2b0390f59c468836224001060ca26a02b9554c9"
     end
     on_intel do
-      url "https://github.com/bryceremick/rm-comments/releases/download/v0.3.0/rm-comments-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c7ef07dba604be5cd2846a3417bfa8a48c442c2d52241f3889989d96e8b055fa"
+      url "https://github.com/bryceremick/rm-comments/releases/download/v0.4.1/rm-comments-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "24ee7e2e143281fd9491f4d363fd1ccf2b4a08bccf227a791d7b29e0bb6fffb5"
     end
   end
 
